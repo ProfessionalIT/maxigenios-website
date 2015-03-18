@@ -9,15 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
+   width="1024"
+   height="1052.3622"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
    inkscape:export-filename="C:\Users\leandroseverino\Downloads\bitmap.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="novologotipo.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,21 +59,21 @@
        id="rect2985"
        width="5.7142887"
        height="62.857143"
-       x="-353.14285"
-       y="447.79074"
+       x="-153.14285"
+       y="133.50502"
        transform="scale(-1,1)" />
     <rect
        transform="scale(-1,1)"
-       y="395.21933"
-       x="-351.14285"
+       y="80.933617"
+       x="-151.14285"
        height="28.571436"
        width="5.7142887"
        id="rect2987"
        style="fill:#000000" />
     <rect
        transform="scale(-1,1)"
-       y="419.50504"
-       x="-283.14285"
+       y="105.21932"
+       x="-83.142853"
        height="134.28572"
        width="5.7142887"
        id="rect2989"
@@ -83,13 +83,13 @@
        id="rect2991"
        width="5.7142887"
        height="134.28572"
-       x="-417.14285"
-       y="419.50504"
+       x="-217.14285"
+       y="105.21932"
        transform="scale(-1,1)" />
     <rect
        transform="matrix(-0.77066555,-0.63723984,-0.58018738,0.81448303,0,0)"
-       y="71.892845"
-       x="-570.38879"
+       y="-43.166073"
+       x="-224.25197"
        height="57.995312"
        width="4.9333067"
        id="rect2993"
@@ -99,13 +99,13 @@
        id="rect2995"
        width="4.7819343"
        height="56.242523"
-       x="21.26593"
-       y="520.02466"
+       x="-15.610868"
+       y="144.11928"
        transform="matrix(-0.86574831,0.50047963,0.61697981,0.78697898,0,0)" />
     <rect
        transform="matrix(-0.89385547,0.44835521,0.56931375,0.82212034,0,0)"
-       y="615.66162"
-       x="-15.879421"
+       y="241.36334"
+       x="-30.527378"
        height="56.242523"
        width="4.7819343"
        id="rect3008"
@@ -115,8 +115,98 @@
        id="rect3010"
        width="4.9333067"
        height="57.995312"
-       x="-570.62573"
-       y="156.41461"
+       x="-221.54257"
+       y="49.04813"
        transform="matrix(-0.75673871,-0.65371747,-0.59762358,0.80177681,0,0)" />
-  </g>
+    <rect
+       transform="scale(-1,1)"
+       y="393.21933"
+       x="-166.28571"
+       height="62.857143"
+       width="5.7142887"
+       id="rect2998"
+       style="fill:#000000" />
+    <rect
+       style="fill:#000000"
+       id="rect3000"
+       width="5.7142887"
+       height="28.571436"
+       x="-164.28571"
+       y="340.64792"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#000000"
+       id="rect3002"
+       width="5.7142887"
+       height="134.28572"
+       x="-227.76268"
+       y="326.073"
+       transform="matrix(-0.94897489,-0.31535164,-0.31535164,0.94897489,0,0)" />
+    <rect
+       transform="matrix(-1,0,0.24738323,0.96891771,0,0)"
+       y="391.08945"
+       x="-122.39387"
+       height="138.59352"
+       width="5.7142887"
+       id="rect3004"
+       style="fill:#000000" />
+    <rect
+       style="fill:#000000"
+       id="rect3006"
+       width="4.9333067"
+       height="57.995312"
+       x="-386.05902"
+       y="149.10909"
+       transform="matrix(-0.77066555,-0.63723984,-0.58018738,0.81448303,0,0)" />
+    <rect
+       transform="matrix(-0.86574831,0.50047963,0.61697981,0.78697898,0,0)"
+       y="377.854"
+       x="135.7812"
+       height="56.242523"
+       width="4.7819343"
+       id="rect3009"
+       style="fill:#000000" />
+    <rect
+       style="fill:#000000"
+       id="rect3011"
+       width="4.7819343"
+       height="56.242523"
+       x="107.89528"
+       y="481.77704"
+       transform="matrix(-0.89385547,0.44835521,0.56931375,0.82212034,0,0)" />
+    <rect
+       transform="matrix(-0.75673871,-0.65371747,-0.59762358,0.80177681,0,0)"
+       y="237.47961"
+       x="-387.72409"
+       height="57.995312"
+       width="4.9333067"
+       id="rect3013"
+       style="fill:#000000" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3017"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-9.714286,-21.142857)"><flowRegion
+         id="flowRegion3019"><rect
+           id="rect3021"
+           width="751.42859"
+           height="114.28572"
+           x="268.57144"
+           y="403.79074" /></flowRegion><flowPara
+         id="flowPara3023"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold">Maxigênios</flowPara><flowPara
+         id="flowPara3025">Genialidade em Soluções Tecnológicas.</flowPara></flowRoot>    <flowRoot
+       transform="translate(-9.714286,-281.14286)"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3027"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3029"><rect
+           y="403.79074"
+           x="268.57144"
+           height="114.28572"
+           width="751.42859"
+           id="rect3031" /></flowRegion><flowPara
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara3033">Maxigênios</flowPara><flowPara
+         id="flowPara3035">Genialidade em Soluções Tecnológicas.</flowPara></flowRoot>  </g>
 </svg>
