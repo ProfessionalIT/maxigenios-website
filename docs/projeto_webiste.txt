@@ -3,3 +3,38 @@
 [ Objetivos ]
 
     Um website institucional 
+
+[ Estrutura de Menus ]
+
+	[ HOME ] [ SOBRE] [ SERVIÇOS ] [ PORTIFÓLIO ] [ NOTÍCIAS ] [ CONTATO ]
+
+	
+[ Descrição ]
+
+	A) O website da Maxigênios é um site institucional que visa apresentar: a empresa (seu histórico, sua visão, sua meta e seus valores), as tecnologias em que a empresa tem expertise (destacando que a empresa tem amplo conhecimento em tecnologias open-source. Destacar o ambiente de desenvolvimento da empresa seria interessante), seu portifólio de serviços e produtos desenvolvidos (vídeos e animações instrutivas e depoimentos de clientes seria interessante adicionar) e também um canal de novidades/notícias para que seus visitantes estejam sempre informados (blog ? ou sistema próprio de notícias do site), bem como os canais (rede sociais bem visíveis e de fácil localização) e as formas de contato (formulário e dados de contato) com a empresa. 
+
+	Obs: 
+	- Um cadastro para uma lista de divulgação e assinatura será necessário (utilizar o feedburner ?)
+	- Um painel do Facebook e do Twitter é interessante adicionar.
+	- Uma lista de últimos vídeos produzidos também.
+	- Botões de compartilhamento social.
+	- Possibilidade do site ser também em inglês é interessante cogitar. 
+	- Deverá ficar em destaque no website o compromisso com o cliente, com prazos, com a fidelização, a responsabilidade, a ética e o respeito.
+
+	B) Em termos de funcionalidades o website necessita ser leve, limpo e ágil, adequando-se a vários tipos de resoluções de tela e dispositivos, ou seja, ser responsivo, tanto em textos, imagens e vídeos. Precisa também de imagens e frases impactantes, totalmente co-relacionadas aos serviços e produtos que a empresa desenvolve. O visitante sempre precisa saber claramente onde ele está dentro da estrutura do site (breadcrumbs) e o site também deve possuir um campo de busca que deve ser de fácil localização. Deve também possuir no rodapé uma estrutura de menu que espelhe a árvore de links do site (Mapa do site), bem como marcas de copyright e a versão do site.  
+	 
+	C) Em termos de serviços a empresa fornece:
+
+	1 - Desenvolvimento de websites responsivos, com ou sem módulo administrativo, com a opção de um contrato de manutenção onde a própria Maxigênios fica responsável pelo gerenciamento do conteúdo do site da empresa contratante.
+
+	2 - Desenvolvimento de Flyer (Material publicitário para divulgação online ou impressa). 
+
+	3 - Campanhas publicitárias online, com divulgação do e-mail marketing e acompanhamento da campanha; implantação das campanhas em redes sociais, como o Facebook e G+; Vendas de publicidade do Google.
+
+	4 - Criação, instalação e Customização de lojas virtuais (e-commerce / comércio eletrônico) com a opção de um contrato de manutenção onde a própria Maxigênios fica responsável pelo gerenciamento do conteúdo da loja virtual da empresa contratante.
+
+	5 - Desenvolvimento de Apps Nativas ou Híbridas para Smartphones, Celulares e Tablets (IPhone/IPad, Android, Windows Phone e PhoneGap)
+
+	6 - Desenvolvimento de aplicações/sistemas nativos (Windows ou Linux) totalmente personalizados e customizáveis. 
+
+	7 - Desenvolvimento de modernas aplicações/sistemas web, configuração, bem como a instalação e o gerenciamento destas aplicações.
