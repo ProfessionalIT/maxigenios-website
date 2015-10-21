@@ -20,7 +20,7 @@ handlers:
   static_files: static/javascript/\1
   upload: static/javascript/(.*)
   secure: optional
-  
+
 - url: /.*
   script: code.app  
   secure: optional

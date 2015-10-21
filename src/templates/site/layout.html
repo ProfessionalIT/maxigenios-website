@@ -1,72 +1,294 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>ProfessionalIT - Sistemas, Sites, Aplicações Web e Mobile.</title>
-    <meta name="language" content="pt-br"/>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="copyright" content="Copyright (c) 2012 ProfessionalIT. This site's design and html code is licensed under the terms of the GPLv3 or (at your option) any later version.">
-    <meta name="organization name" content="ProfessionalIT - Sistemas, Sites, Aplicações Web e Mobile." />
-    <meta name="author" content="professionalit.com.br - Sistemas, Sites, Aplicações Web e Mobile."/>
-    <meta name="Description" content="Empresa de desenvolvimento de sistemas, sites, aplicações web e sistemas mobile." lang="pt-BR">
-    <meta name="Keywords" content="Sistema, Sites, WebSite, Mobile, Aplicações, Software, Desenvolvimento, Tecnologia, Open-Source, Python, Linux, Django, Web2Py, GAE, Google Apps" lang="pt-BR">
-    <meta name="rating" content="Sistemas, Sites, Aplicações Web, Aplicações Mobile">
-    <meta name="DC.title" content="professionalit.com.br">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright"
+          content="Copyright (c) Maxigênios - Genialidade em Soluções Tecnológicas. This site's design and html code is licensed under the terms of the GPLv3 or (at your option) any later version.">
+    <meta name="organization name"
+          content="Maxigênios - Genialidade em Soluções Tecnológicas.">
+    <meta name="description"
+          content="Maxigênios - Genialidade em Soluções Tecnológicas.">
+    <meta name="Keywords" content="Sistema, Sites, WebSite, Mobile, Aplicações Web, Aplicações Mobile, E-Commerce, Comércio Eletrônico, Software, Desenvolvimento, Tecnologia, Open-Source, Desenvolviment de Sistemas, Desenvolvimento de Software" lang="pt-BR">
+    <meta name="rating" content="Sistema, Sites, WebSite, Mobile, Aplicações Web, Aplicações Mobile, E-Commerce, Comércio Eletrônico, Software, Desenvolvimento, Tecnologia, Open-Source, Desenvolviment de Sistemas, Desenvolvimento de Software">
+    <meta name="DC.title" content="maxigenios.com.br">
     <meta name="robots" content="ALL">
-    <meta name="googlebot" content="all" />
-    <meta name="generator" content="Geany 0.19" />
-    <meta name="classification" content="Internet" />
-    <meta name="distribution" content="Global" />
-    <meta name="revisit-after" content="2 weeks" />
-    <link rel='index' title='ProfessionalIT - Sistemas, Sites, Aplicações Web e Mobile.' href='http://www.professionalit.com.br' ></link>
-    <link rel="canonical" href="http://www.professionalit.com.br" ></link>
-    <link href="/static/css/styles.css" rel="stylesheet" type="text/css"/>
+    <meta name="googlebot" content="all">
+    <meta name="classification" content="Internet">
+    <meta name="distribution" content="Global">
+    <meta name="revisit-after" content="1 weeks">
+    <meta name="author" content="maxigenios.com.br - Maxigênios - Genialidade em Soluções Tecnológicas.">
+
+    <link rel="index"
+          title="Maxigênios - Genialidade em Soluções Tecnológicas."
+          href="http://www.maxigenios.com.br" ></link>
+
+    <title>Maxigênios - Genialidade em Soluções Tecnológicas.</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/static/css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/static/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="/static/javascript/utils.js"></script>
+
 </head>
+
 <body>
-    <div id="main_panel" style="margin-bottom:80px;">
-        <img src="/static/images/novoLogo_black_invert.png" alt="logotipo da ProfessionalIT." border="0"/>
-        <h1>Uma empresa de Soluções em Tecnologia.</h1>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Alternar navegação</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Maxigênios</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" title="Sobre a empresa.">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Nossos Serviços.">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Clientes e Parceiros Satisfeitos.">Portifólio</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Novidades da Maxigênios.">Notícias</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Deixe o seu recado.">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header -->
+    <div class="intro-header">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Maxigênios</h1>
+                        <h3>Genialidade em Soluções Tecnológicas.</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
     </div>
-    <div id="container" style="margin-top:20px;">
-        <h3 style="margin-bottom: 30px">Onde com certeza podemos te ajudar:</h3>
-        <ul id="nav">
-            <li id="selected"><a href="#">SISTEMAS</a></li>
-            <li><a href="#">WEBSITES</a></li>
-            <li><a href="#">APLICAÇÕES WEB</a></li>
-            <li><a href="#">APLICAÇÕES MOBILE</a></li>
-        </ul>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Aplicações Mobile:<br>IOS, Android e Windows Phone.</h2>
+                    <p class="lead">Desenvolvimento de Aplicações Mobile nas principais plataformas do mercado.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="/static/images/ipad.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
     </div>
-    <div id="contact_panel" >
-         <p style="text-align:center;">Visite nossos canais:</p>
-         <table>
-            <tr>
-                <td><a href="http://blog.professionalit.com.br" title="Blog da ProfessionalIT - Sistemas, Sites, Aplicações Web e Aplicações Mobile."><img src="/static/images/rss.png" alt="Logotipo do Blogger." title="Blog da ProfessionalIT - Sistemas, Sites, Aplicações Web e Aplicações Mobile."/></a></td>
-                <td><a href="http://www.twitter.com/professionalit" title="Twitter da ProfessionalIT - Sistemas, Sites, Aplicações Web e Aplicações Mobile."><img src="/static/images/twitter.png" alt="Logotipo do Twitter." title="Twitter da ProfessionalIT - Sistemas, Sites, Aplicações Web e Aplicações Mobile." /></a></td>
-                <td><a href="http://pt-br.facebook.com/pages/ProfessionalIT-Sistemas-Sites-Aplica%C3%A7%C3%B5es-Web-e-Aplica%C3%A7%C3%B5es-Mobile/172556429456889" title="Facebook da ProfessionalIT - Sistemas, Sites, Aplicações Web e Aplicações Mobile."><img src="/static/images/facebook.png" alt="Logotipo do Facebook." title="Facebook da ProfessionalIT - Sistemas, Sites, Aplicações Web e Aplicações Mobile."/></a></td>
-            </tr>
-            <tr>
-                <td><a href="http://blog.professionalit.com.br">No Blog</a></td>
-                <td><a href="http://www.twitter.com/professionalit">No Twitter</a></td>
-                <td><a href="http://pt-br.facebook.com/pages/ProfessionalIT-Sistemas-Sites-Aplica%C3%A7%C3%B5es-Web-e-Aplica%C3%A7%C3%B5es-Mobile/172556429456889">No Facebook</a></td>
-            </tr>
-         </table>
-         <p style="text-align:center;margin-top:20px;margin-bottom:20px;">Interessado ?</p>
-         <p>Estamos à tua disposição: <span>(51) 9390.3511</span> | E-mail: comercial@professionalit.com.br</p>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Sistemas e Websites<br>Responsivos e personalizáveis.</h2>
+                    <p class="lead">Desenvolva conosco o seu sistema ou seu webiste responsivo, totalmente personalizável.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="/static/images/dog.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
     </div>
-    <div id="form_panel">
-        <h4>Ou deixe seu recado que entraremos em contato:</h4>
-        <fieldset style="width: 48%;margin:0px auto;border: none;">
-            <legend style="font-size: 28px;font-weight:bold;text-align:left;padding:05px;color:yellow;">Dados de Contato</legend>
-            <form action="" method="post">
-                <table> 
-                    <tr><th><label for="nome">Nome:</label></th><td><input name="nome" title="Informe o seu nome." maxlenght="250" type="text" id="nome" size="60"/></td></tr> 
-                    <tr><th><label for="email">E-mail:</label></th><td><input name="email" title="Informe o seu E-mail." maxlenght="250" type="text" id="email" size="60"/></td></tr> 
-                    <tr><th><label for="telefone">Telefone:</label></th><td><input name="telefone" title="Informe o seu telefone." maxlenght="250" type="text" id="telefone" size="60"/></td></tr> 
-                    <tr><th><label for="mensagem_adicional">Mensagem:</label></th><td><textarea title="Inclua sua mensagem." rows="15" id="mensagem_adicional" name="mensagem_adicional" cols="58"></textarea></td></tr> 
-                    <tr><th><label for="Submit!"></label></th><td><button type="submit" id="Submit!" name="Submit!">Enviar</button></td></tr> 
-                </table> 
-            </form>
-        </fieldset>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Apps Nativas ou Hibridas<br>IOS, Android ou Windows Phone</h2>
+                    <p class="lead">Desenvolvemos Apps nativas ou híbridas nas príncipais plataformas do mercado.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="/static/images/phones.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
     </div>
-    <div id="footer"><p>ProfessionalIT 2012 - Uma empresa do grupo <a href="#" title="MaxiGênios - Genialidade em Soluções Tecnológicas">MaxiGênios - Genialidade em Soluções Tecnológicas.</a></p></div>
+    <!-- /.content-section-a -->
+
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Conecte-se conosco:</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about" title="Sobre a empresa.">Sobre</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#services">Serviços</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#services">Portifólio</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#services">Notícias</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Maxigênios <script type="text/javascript">document.write(get_actual_year());</script>. Todos direitos reservados. <br>Estamos à tua disposição: (51) 9390.3511 | E-mail: comercial@maxigenios.com.br</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/static/javascript/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/static/javascript/bootstrap.min.js"></script>
+
+    <!-- Chat -->
+
+    <!-- Start of Tawk.to Script -->
+    <script type="text/javascript">
+        var $_Tawk_API={},$_Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/55082d28e1dea9e22660eeaa/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+            }
+        )();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <!-- Hotjar Tracking Code for www.maxigenios.com.br -->
+    <script>
+        (function(f,b){
+            var c;
+            f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+            f._hjSettings={hjid:32981, hjsv:4};
+            c=b.createElement("script");c.async=1;
+            c.src="//static.hotjar.com/c/hotjar-"+f._hjSettings.hjid+".js?sv="+f._hjSettings.hjsv;
+            b.getElementsByTagName("head")[0].appendChild(c);
+        })(window,document);
+    </script>
+
 </body>
+
 </html>
