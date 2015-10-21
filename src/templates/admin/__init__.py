@@ -2,6 +2,37 @@ from web.template import CompiledTemplate, ForLoop, TemplateResult
 
 
 # coding: utf-8
+def form (titulo, action, method, form, verbo, display_message):
+    __lineoffset__ = -4
+    loop = ForLoop()
+    self = TemplateResult(); extend_ = self.extend
+    extend_([u'<h1>', escape_(titulo, True), u'</h1>\n'])
+    extend_([u'<div class="painel_form">\n'])
+    extend_([u'    <span class="show_message">', escape_(display_message, False), u'</span>\n'])
+    extend_([u'    <h2><span class="titulo">Dados do Registro</span></h2>\n'])
+    extend_([u'    <form action="', escape_(action, True), u'" method="', escape_(method, True), u'" name="operation_form" id="operation_form">\n'])
+    extend_([u'        ', escape_(form.render(), False), u'\n'])
+    extend_([u'        <span class="operations_field">Opera\xe7\xf5es:</span>\n'])
+    if verbo == 'editar':
+        extend_(['        ', u'<button type="submit" id="excluir_button" name="excluir_button" onclick="return setMode(\'delete\');">Excluir</button>\n'])
+        extend_(['        ', u'<button type="submit" id="salvar_button" name="salvar_button" onclick="return setMode(\'save\');">Salvar</button>\n'])
+    extend_([u'        <button type="submit" id="salvar_sair_button" name="salvar_sair_button" onclick="return setMode(\'save_exit\');">Salvar e Sair</button>\n'])
+    extend_([u'    </form>\n'])
+    extend_([u'</div>\n'])
+    extend_([u'<script language="javascript" type="text/javascript">\n'])
+    extend_([u'    function setMode(mode){\n'])
+    extend_([u'        document.operation_form.operation.value=mode;\n'])
+    extend_([u"        if (mode == 'delete'){ if (confirm('Deseja Realmente excluir o registro ?')) { return true; } else { return false; } } else { return true; }\n"])
+    extend_([u'    }\n'])
+    extend_([u'</script>\n'])
+    extend_([u'\n'])
+
+    return self
+
+form = CompiledTemplate(form, 'templates/admin/form.html')
+join_ = form._join; escape_ = form._escape
+
+# coding: utf-8
 def lista (form, filtro, pagination, display_message):
     __lineoffset__ = -4
     loop = ForLoop()
@@ -61,37 +92,6 @@ def lista (form, filtro, pagination, display_message):
 
 lista = CompiledTemplate(lista, 'templates/admin/lista.html')
 join_ = lista._join; escape_ = lista._escape
-
-# coding: utf-8
-def form (titulo, action, method, form, verbo, display_message):
-    __lineoffset__ = -4
-    loop = ForLoop()
-    self = TemplateResult(); extend_ = self.extend
-    extend_([u'<h1>', escape_(titulo, True), u'</h1>\n'])
-    extend_([u'<div class="painel_form">\n'])
-    extend_([u'    <span class="show_message">', escape_(display_message, False), u'</span>\n'])
-    extend_([u'    <h2><span class="titulo">Dados do Registro</span></h2>\n'])
-    extend_([u'    <form action="', escape_(action, True), u'" method="', escape_(method, True), u'" name="operation_form" id="operation_form">\n'])
-    extend_([u'        ', escape_(form.render(), False), u'\n'])
-    extend_([u'        <span class="operations_field">Opera\xe7\xf5es:</span>\n'])
-    if verbo == 'editar':
-        extend_(['        ', u'<button type="submit" id="excluir_button" name="excluir_button" onclick="return setMode(\'delete\');">Excluir</button>\n'])
-        extend_(['        ', u'<button type="submit" id="salvar_button" name="salvar_button" onclick="return setMode(\'save\');">Salvar</button>\n'])
-    extend_([u'        <button type="submit" id="salvar_sair_button" name="salvar_sair_button" onclick="return setMode(\'save_exit\');">Salvar e Sair</button>\n'])
-    extend_([u'    </form>\n'])
-    extend_([u'</div>\n'])
-    extend_([u'<script language="javascript" type="text/javascript">\n'])
-    extend_([u'    function setMode(mode){\n'])
-    extend_([u'        document.operation_form.operation.value=mode;\n'])
-    extend_([u"        if (mode == 'delete'){ if (confirm('Deseja Realmente excluir o registro ?')) { return true; } else { return false; } } else { return true; }\n"])
-    extend_([u'    }\n'])
-    extend_([u'</script>\n'])
-    extend_([u'\n'])
-
-    return self
-
-form = CompiledTemplate(form, 'templates/admin/form.html')
-join_ = form._join; escape_ = form._escape
 
 # coding: utf-8
 def index_admin():
